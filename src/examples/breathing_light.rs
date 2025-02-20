@@ -5,7 +5,7 @@ use stm32f1xx_hal::{
 };
 
 // Gradual darkening, gradual brightening
-pub fn pwm() -> ! {
+pub fn breathing_light() -> ! {
     let p = pac::Peripherals::take().unwrap();
     let cp = cortex_m::Peripherals::take().unwrap();
 

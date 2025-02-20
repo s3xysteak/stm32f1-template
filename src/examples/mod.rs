@@ -1,4 +1,4 @@
 #![allow(dead_code)]
 
 pub mod blink;
-pub mod pwm;
+pub mod breathing_light;

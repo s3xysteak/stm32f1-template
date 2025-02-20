@@ -8,5 +8,5 @@ mod examples;
 
 #[entry]
 fn main() -> ! {
-    examples::pwm::pwm();
+    examples::breathing_light::breathing_light();
 }
