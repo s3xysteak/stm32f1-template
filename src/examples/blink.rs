@@ -1,5 +1,6 @@
 use stm32f1xx_hal::{pac, prelude::*};
 
+// blink led on pa0
 pub fn blink() -> ! {
     let p = pac::Peripherals::take().unwrap();
     let cp = cortex_m::Peripherals::take().unwrap();

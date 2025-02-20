@@ -8,5 +8,5 @@ mod examples;
 
 #[entry]
 fn main() -> ! {
-    examples::libs::blink();
+    examples::pwm::pwm();
 }
