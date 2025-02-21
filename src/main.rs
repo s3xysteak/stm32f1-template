@@ -8,5 +8,5 @@ mod examples;
 
 #[entry]
 fn main() -> ! {
-    examples::switch::switch();
+    examples::digital_tube::digital_tube();
 }
